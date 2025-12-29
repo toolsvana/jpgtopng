@@ -1,53 +1,43 @@
 # JPG to PNG Converter
 
-A fast, privacy-first JPG to PNG converter that runs entirely in your browser. Built with Next.js and optimized for SEO.
+A browser-based tool that converts JPG images to PNG format. Built with Next.js and processes files entirely in your browser.
 
-## Features
+🔗 **Live Demo:** [JPG to PNG](https://toolsvana.com/tool/jpg-to-png)
 
-- **100% Client-Side** - No uploads, all processing happens in your browser
-- **Transparency Support** - PNG format supports transparent backgrounds
-- **Lossless Quality** - Perfect quality preservation without compression artifacts
-- **SEO Optimized** - Static export with full content in HTML
-- **Privacy First** - Your images never leave your device
+## What it does
 
-## Tech Stack
+This tool converts JPG images to PNG format using the HTML Canvas API. All conversion happens locally, so your images never leave your device.
 
-- **Next.js 16** - Static site generation
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Styling
-- **Canvas API** - Browser-native image processing
+## Key features
 
-## Getting Started
+- Converts JPG to PNG format
+- Preserves image quality
+- Works offline
+- No file size restrictions
+- Instant conversion
+- Drag-and-drop support
 
-Install dependencies:
+## How to use
+
+1. Drop a JPG file or click to browse
+2. Conversion happens automatically
+3. Download the PNG file
+
+## Technical details
+
+Built with Next.js 16, TypeScript, and Tailwind CSS. Uses HTML Canvas API for image processing.
+
+## Running locally
 
 ```bash
 npm install
-```
-
-Run the development server:
-
-```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the tool.
-
-## Build for Production
+## Building
 
 ```bash
 npm run build
 ```
 
-This creates a static export in the `/out` folder, ready for deployment to Cloudflare Pages or any static hosting.
-
-## Deploy to Cloudflare Pages
-
-1. Push this repo to GitHub
-2. Connect to Cloudflare Pages
-3. Build command: `npm run build`
-4. Output directory: `out`
-
-## License
-
-MIT
+Output directory: `out`
